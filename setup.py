@@ -15,5 +15,7 @@ setup(
     package_data = {
     '' : ['*.bit','*.tcl','*.py','*.so'],
     },
+    install_requires = ['pynq',],
+    dependency_links=['http://github.com/xilinx/PYNQ'],
     description = "New custom overlay for PYNQ-Z1"
 )
