@@ -6,7 +6,7 @@ import overlays
 
 setup(
     name = "new_overlay",
-    version = new_overlay.__version__,
+    version = overlays.__version__,
     url = 'https://github.com/kevkim11/pynq_overlay_demo',
     license = 'All rights reserved.',
     author = "Kevin Kim",
