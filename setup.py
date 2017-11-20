@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import subprocess
 import sys
 import shutil
-import new_overlay
+import overlays
 
 setup(
     name = "new_overlay",
